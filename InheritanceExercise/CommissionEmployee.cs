@@ -22,7 +22,7 @@ namespace InheritanceExercise
 			set { _name = value; }
 		}
 
-		private double _grossSales;
+        private double _grossSales;
 
 		public double GrossSales
 		{
