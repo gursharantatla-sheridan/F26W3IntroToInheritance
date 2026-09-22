@@ -11,10 +11,6 @@
 
             DerivedClass objDerived = new DerivedClass("hello");
             //objDerived.myPublicVar = 3;
-
-
-
-
         }
     }
 }
