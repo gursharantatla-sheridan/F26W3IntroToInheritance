@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BaseClass objBase = new BaseClass();
+            //objBase.myPrivateVar = 1;
+            //objBase.myProtectedVar = 2;
+            objBase.myPublicVar = 3;
+
+            DerivedClass objDerived = new DerivedClass();
+            objDerived.myPublicVar = 3;
         }
     }
 }
